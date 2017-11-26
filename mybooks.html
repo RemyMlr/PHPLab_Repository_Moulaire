@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+        <?php include 'header.php'; ?>
+        <nav class="mybooks">
+        	<ul class="mybooks_ul">
+        		<li class="mybooks_title"> Here is the list of your books :
+        		<li> <form method="post" action="">
+        				<p><label for="book_name">Book name </label> : <input type="text" name="Book name" id="book_name" maxlength="50" size="50"/></p>
+
+        			 </form>
+        		<li > __________________________________________________
+        		<li class="mybooks_list"> - Desert Solitaire
+        		<li class="mybooks_list"> - Disgrace
+        		<li class="mybooks_list"> - Geek love
+        		<li> 
+        		<form method="post" action="traitement.php">
+   					<p>
+       					<label for="Comment">Tell us what you think about your books : </label><br />
+      					<p><textarea class="textarea_mybooks" name="Comment" id="Comment"> How awesome are your books ?</textarea></p>
+
+   					</p>
+				</form>
+        	</ul>
+        </nav>
+    <footer>
+        <p>___________________________________________________________________________________________________________________________________________</p>
+        <p class="footer_text"> Web page created by Rémy Moulaire / Jönköping University </p>
+    </footer>
+    </body>
+</html>

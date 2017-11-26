@@ -1,0 +1,239 @@
+/*__________________________Header____________________________*/
+
+header {
+  margin: 0px;
+  width: 100%;
+  height: 70px;
+  border-bottom: 3px solid grey;
+}
+
+ .header_nav{
+  }
+
+ #navigation li:hover{
+  background-color: rgb(225,225,225);
+ }
+
+ a{
+  color: rgb(100,100,100);;
+  text-decoration: none;
+ }
+
+#navigation li{
+  margin-right: 10px;
+
+}
+
+ #navigation{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial;
+  font-size: 2em;
+  list-style-type: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+ }
+
+ #navigation #active a{
+    background-color: rgb(250,250,250);
+    border-radius: 3px ;
+ }
+
+
+
+
+/*__________________________Homepage____________________________*/
+
+ body{
+  background-image: url("background.JPG");
+
+ }
+
+.hometext{
+    text-align: center;
+    font-family: cursive;
+    font-size: 5em;
+    color: rgb(100,100,100);
+}
+
+.hometext2{
+    font-family: cursive;
+    font-size: 2em;
+    color: rgb(100,100,100);
+}
+
+.homepage_image{
+  width : 10%;
+  height : 10%;
+  align-content: center;
+ }
+
+/*__________________________Mybooks page____________________________*/
+
+.mybooks_body{
+  background-color: rgb(150,185,255);
+ }
+
+.textarea_mybooks{
+    text-decoration-color: rgb(200,200,200)
+ }
+
+.mybooks{
+    font-family: cursive;
+
+ }
+
+.mybooks_list{
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: rgb(100,100,100);
+ }
+
+.mybooks_ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+ }
+
+.mybooks_title{
+  font-size: 3em;
+  color: rgb(100,100,100);
+ }
+
+/*__________________________Books Browser____________________________*/
+
+.browsebooks_body{
+  background-color: rgb(150,185,255);
+  list-style-type: none;
+ }
+
+.browse_title{
+    font-size: 2em;
+    font-family: cursive;
+    color: rgb(100,100,100);
+ }
+
+ .booksbrowser{
+   display: flex;
+    font-size: 1em;
+    font-family: cursive;
+    color: rgb(100,100,100);
+ }
+
+ .browser_ul{
+  list-style-type: none;
+ }
+
+ input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor : pointer;
+    font-family: Impact;
+    font-size: 1em;
+}
+
+ input[type=submit]:hover{
+  background-color: #45A049;
+}
+
+.browser_section{
+    border: 2px solid grey;
+    margin : 10px;
+    margin-right: 800px;
+    padding : 15px; 
+}
+
+h3{
+  font-family : Impact;
+  font-size: 2em;
+}
+
+.browsersection{
+  border: 2px solid grey;
+  margin : 10px;
+  margin-right: 900px;
+  padding : 15px;
+}
+
+.reserve_button{
+    padding: 5px;
+    border : black solid 1px;
+    border-radius : 8px;
+    background-color: green;
+    color : white;
+}
+
+.searchtable{
+   font-family: Arial;
+  color: rgb(80,80,80);
+}
+
+/*__________________________About us____________________________*/
+
+.aboutus_body{
+  background-color: rgb(150,185,255);
+ }
+
+.aboutus_text{
+    font-family: cursive;
+    font-size: 2em;
+    color: rgb(100,100,100);
+}
+
+ section{
+    border: 2px solid grey;
+    margin : 10px;
+    margin-right: 500px;
+    padding : 15px;
+ }
+
+ article{
+    font-family: cursive;
+    color: rgb(100,100,100);
+ }
+
+ .aboutus_image{
+    background-position: top right; /*doesn't work*/
+ }
+
+
+/*__________________________Contact____________________________*/
+
+.contact_body{
+  background-color: rgb(150,185,255);
+ }
+
+.contact_text{
+    font-family: Arial;
+    font-size: 2em;
+    color: rgb(100,100,100);
+ }
+
+ .contact_text2{
+    font-family: Arial;
+    color: rgb(100,100,100);
+ }
+
+.contact_image{
+  width : 30%;
+  height : 30%;
+ }
+
+ /*__________________________Footer____________________________*/
+
+ footer{
+  margin: 0px;
+  height: 30px;
+  width: 100%;
+  border-top: 3px solid grey;;
+}
+
+.footer_text{
+  font-family: Arial;
+  color: rgb(100,100,100);
+}
